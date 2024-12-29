@@ -1,0 +1,22 @@
+{
+  "name": "machinsight-server",
+  "version": "1.0.0",
+  "description": "A Node.js and Express backend for the Predictive Maintenance App, providing APIs for real-time machine insights and data handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+  "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

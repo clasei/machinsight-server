@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5005;
 app.use(cors());
 app.use(express.json());
 
-// Routes
+// Main Routes
 const routes = require("./routes");
 app.use("/api", routes);
 

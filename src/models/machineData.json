@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "machineName": "Stone Crusher",
+    "temperature": 78,
+    "vibration": 10,
+    "fuelLevel": 60,
+    "status": "normal",
+    "workHours": 3400,
+    "location": "Crushing Zone",
+    "lastMaintenance": "2024-12-20"
+  },
+  {
+    "id": 2,
+    "machineName": "Conveyor Belt A",
+    "temperature": 68,
+    "vibration": 15,
+    "fuelLevel": 0,
+    "status": "normal",
+    "workHours": 2700,
+    "location": "Transport Section",
+    "lastMaintenance": "2024-12-18"
+  },
+  {
+    "id": 3,
+    "machineName": "Cutting Saw",
+    "temperature": 95,
+    "vibration": 25,
+    "fuelLevel": 15,
+    "status": "warning",
+    "workHours": 1500,
+    "location": "Cutting Zone",
+    "lastMaintenance": "2024-12-10"
+  },
+  {
+    "id": 4,
+    "machineName": "Loader B",
+    "temperature": 110,
+    "vibration": 40,
+    "fuelLevel": 10,
+    "status": "critical",
+    "workHours": 4500,
+    "location": "Loading Dock",
+    "lastMaintenance": "2024-11-30"
+  },
+  {
+    "id": 5,
+    "machineName": "Conveyor Belt B",
+    "temperature": 72,
+    "vibration": 18,
+    "fuelLevel": 0,
+    "status": "normal",
+    "workHours": 3200,
+    "location": "Transport Section",
+    "lastMaintenance": "2024-12-15"
+  },
+  {
+    "id": 6,
+    "machineName": "Hydraulic Press",
+    "temperature": 85,
+    "vibration": 22,
+    "fuelLevel": 30,
+    "status": "warning",
+    "workHours": 2100,
+    "location": "Shaping Section",
+    "lastMaintenance": "2024-12-12"
+  }
+]

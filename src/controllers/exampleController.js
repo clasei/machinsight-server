@@ -1,3 +1,5 @@
-exports.home = (req, res) => {
-  res.json({ message: "Welcome to the MachInsight Backend!" });
+const home = (req, res) => {
+  res.send("Welcome to the API");
 };
+
+export default { home };

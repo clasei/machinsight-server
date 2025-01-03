@@ -1,6 +1,7 @@
-const express = require("express");
-const cors = require("cors");
-const dotenv = require("dotenv");
+import express from "express";
+import cors from "cors";
+import dotenv from "dotenv";
+import routes from "./routes/index.js";
 
 dotenv.config();
 
@@ -12,7 +13,6 @@ app.use(cors());
 app.use(express.json());
 
 // Main Routes
-const routes = require("./routes");
 app.use("/api", routes);
 
 // Start the server

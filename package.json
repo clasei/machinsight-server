@@ -1,5 +1,6 @@
 {
   "name": "machinsight-server",
+  "type": "module",
   "version": "1.0.0",
   "description": "A Node.js and Express backend for the Predictive Maintenance App, providing APIs for real-time machine insights and data handling.",
   "main": "index.js",

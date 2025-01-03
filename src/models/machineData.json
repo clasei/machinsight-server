@@ -64,5 +64,16 @@
     "workHours": 2100,
     "location": "Shaping Section",
     "lastMaintenance": "2024-12-12"
+  },
+  {
+    "id": 7,
+    "machineName": "Cooling Fan",
+    "temperature": 70,
+    "vibration": 10,
+    "fuelLevel": 50,
+    "status": "normal",
+    "workHours": 2500,
+    "location": "Ventilation Section",
+    "lastMaintenance": "2024-12-25"
   }
 ]

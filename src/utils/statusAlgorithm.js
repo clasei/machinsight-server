@@ -1,16 +1,16 @@
 const determineStatus = (machine) => {
   let status = "normal";
-  let warningCount = 0; // Counter for warnings
+  let warningCount = 0;
 
   // Check temperature
-  if (machine.temperature > 100) {
+  if (machine.temperature >= 100) {
       status = "critical";
   } else if (machine.temperature >= 90) {
       warningCount++;
   }
 
   // Check vibration
-  if (machine.vibration > 30) {
+  if (machine.vibration >= 30) {
       status = "critical";
   } else if (machine.vibration >= 20) {
       warningCount++;
@@ -40,4 +40,4 @@ const determineStatus = (machine) => {
   return status;
 };
 
-module.exports = determineStatus;
+export default determineStatus;

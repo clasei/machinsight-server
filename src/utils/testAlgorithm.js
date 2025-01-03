@@ -1,5 +1,5 @@
-const determineStatus = require("./statusAlgorithm");
-const machineData = require("../models/machineData.json");
+import determineStatus from "./statusAlgorithm.js";
+import machineData from "../models/machineData.json" assert { type: "json" };
 
 machineData.forEach((machine) => {
     const status = determineStatus(machine);

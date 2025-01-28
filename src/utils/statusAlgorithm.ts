@@ -1,4 +1,11 @@
-const determineStatus = (machine) => {
+type Machine = {
+    temperature: number;
+    vibration: number;
+    fuelLevel: number;
+    workHours: number;
+};
+
+const determineStatus = (machine: Machine) => {
   let status = "normal";
   let warningCount = 0;
 

@@ -75,5 +75,71 @@
     "workHours": 2500,
     "location": "Ventilation Section",
     "lastMaintenance": "2024-12-25"
+  },
+  {
+    "id": 8,
+    "machineName": "Hydraulic Arm",
+    "temperature": 82,
+    "vibration": 12,
+    "fuelLevel": 45,
+    "status": "warning",
+    "workHours": 3800,
+    "location": "Assembly Line",
+    "lastMaintenance": 0
+  },
+  {
+    "id": 9,
+    "machineName": "Lathe Machine",
+    "temperature": 75,
+    "vibration": 18,
+    "fuelLevel": 20,
+    "status": "normal",
+    "workHours": 2900,
+    "location": "Metal Shop",
+    "lastMaintenance": 0
+  },
+  {
+    "id": 10,
+    "machineName": "Welding Robot",
+    "temperature": 105,
+    "vibration": 22,
+    "fuelLevel": 0,
+    "status": "critical",
+    "workHours": 4900,
+    "location": "Welding Bay",
+    "lastMaintenance": 0
+  },
+  {
+    "id": 11,
+    "machineName": "Cooling System",
+    "temperature": 65,
+    "vibration": 8,
+    "fuelLevel": 80,
+    "status": "normal",
+    "workHours": 3100,
+    "location": "Cooling Zone",
+    "lastMaintenance": 0
+  },
+  {
+    "id": 12,
+    "machineName": "Press Machine",
+    "temperature": 98,
+    "vibration": 35,
+    "fuelLevel": 10,
+    "status": "warning",
+    "workHours": 4200,
+    "location": "Pressing Section",
+    "lastMaintenance": 0
+  },
+  {
+    "id": 13,
+    "machineName": "Packaging Line",
+    "temperature": 88,
+    "vibration": 28,
+    "fuelLevel": 25,
+    "status": "warning",
+    "workHours": 3700,
+    "location": "Packing Area",
+    "lastMaintenance": 0
   }
 ]

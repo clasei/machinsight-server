@@ -6,7 +6,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "node dist/server.js",
-    "dev": "nodemon --ext ts --exec ts-node src/server.ts"
+    "dev": "nodemon --ext ts,json --exec ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",

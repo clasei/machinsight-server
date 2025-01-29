@@ -1,15 +1,15 @@
 import express, { Request, Response } from "express";
-import mockData from "../models/machineData.json";
+import machineData from "../models/machineData.json";
 import determineStatus from "../utils/statusAlgorithm";
 
 const router = express.Router();
 
 // route to fetch all machine data with filters and pagination
 router.get("/", (req: Request, res: Response) => {
-    const { status, location, page = "1", limit = "10" } = req.query as { status?: string; location?: string; page?: string; limit?: string };
+    const { status, location, page = "1", limit = "49" } = req.query as { status?: string; location?: string; page?: string; limit?: string };
 
     // update the status of machines dynamically
-    const updatedData = mockData.map(machine => ({
+    const updatedData = machineData.map(machine => ({
         ...machine,
         status: determineStatus(machine),
     }));
